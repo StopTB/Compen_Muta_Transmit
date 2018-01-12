@@ -3,6 +3,7 @@ Compen_Muta_Transmit repository contains all the python scripts that were writte
 
 # This study was perfromed by 
 Qingyun Liu*, Tianyu Zuo*, Peng Xu, Qi Jiang, Jie Wu, Mingyu Gan, Chongguang Yang, Ravi Prakash, Guofeng Zhu, Howard E. Takiff, Qian Gao
+
 *Equal contributions
 
 # Abstract of this Article
