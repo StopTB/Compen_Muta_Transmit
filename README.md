@@ -31,8 +31,8 @@ It has been suggested that compensatory mutations can promote multidrug-resistan
    ("phylogenetic_tree.nwk" refers to the tree file, "strain_index.txt" refers to a strain list that listed all the isolates harboring the mutation of interest)
  
  4. SNP_distance_calculation.py
-   
-   This script is written to calculate the each pairwise SNP distance of all M. tuberculosis isolates analyzed.
-   
-   Usage: python3 SNP_distance_calculation.py all_strains.fa
+    
+    This script is written to calculate the each pairwise SNP distance of all M. tuberculosis isolates analyzed.
+    
+    Usage: python3 SNP_distance_calculation.py all_strains.fa
    ("all_strains.fa" refers to the fasta file that was used for phylogentic tree reconstruction)
