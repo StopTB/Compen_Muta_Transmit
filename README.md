@@ -12,19 +12,27 @@ It has been suggested that compensatory mutations can promote multidrug-resistan
 # Usage of the python scripts
 
 1. Cluster_type_analysis.py
+   
    This script was written to determine the cluster type that a given transmission cluster belongs to.
+   
    Usage: python3 Cluster_type_analysis.py XXXXXX
 
 2. Identify_transmission_cluster.py
+   
    This script was written to identify transmission clusters in a given M. tuberculosis WGS dataset.
+   
    Usage: python3 Identify_transmission_cluster.py XXXXXX
    
 3. ML_inde_evol_events.py and NJ_inde_evol_events.py
+   
    These two scripts is to verify whether a given putative compensatory mutation have evolved at least twice independently.
+   
    Usage: python3 ML_inde_evol_events.py(or NJ_inde_evol_events.py) phylogenetic_tree.nwk strain_index.txt
    ("phylogenetic_tree.nwk" refers to the tree file, "strain_index.txt" refers to a strain list that listed all the isolates harboring the mutation of interest)
  
  4. SNP_distance_calculation.py
+   
    This script is written to calculate the each pairwise SNP distance of all M. tuberculosis isolates analyzed.
+   
    Usage: python3 SNP_distance_calculation.py all_strains.fa
    ("all_strains.fa" refers to the fasta file that was used for phylogentic tree reconstruction)
