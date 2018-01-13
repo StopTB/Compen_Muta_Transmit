@@ -15,13 +15,13 @@ It has been suggested that compensatory mutations can promote multidrug-resistan
    
    This script was written to determine the cluster type that a given transmission cluster belongs to.
    
-   Usage: python3 Cluster_type_analysis.py XXXXXX
+   Usage: python3 Cluster_type_analysis.py SNP_distance_outcome
 
 2. Identify_transmission_cluster.py
    
    This script was written to identify transmission clusters in a given M. tuberculosis WGS dataset.
    
-   Usage: python3 Identify_transmission_cluster.py XXXXXX
+   Usage: python3 Identify_transmission_cluster.py SNP_distance_outcome transmissionStrain.list
    
 3. ML_inde_evol_events.py and NJ_inde_evol_events.py
    
